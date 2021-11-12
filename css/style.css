@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+i{
+    color: white;
+}
+
+main section{
+    height: 100vh;
+    background-color: black;
+}
+
+.container-top{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    padding: 5px;
+}
+
+.Speaker{
+    color: white;
+    display: flex;
+    height: 25px;
+    padding: 3px;
+    background-color: grey;
+    border-radius: 3px;
+}
+
+.right-side i{
+    padding: 4px;
+}
+
+.expand{
+    color: white;
+    display: flex;
+    height: 25px;
+    padding: 3px;
+    background-color: grey;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+.containermain{
+    width: 90%;
+    display: flex;
+    margin:0 auto;
+}
+.container-mid{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
