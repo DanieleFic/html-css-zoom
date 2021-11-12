@@ -51,8 +51,26 @@ main section{
 .container-mid{
     margin-top: 15px;
     width: 100%;
+    height: 750px;
     display: flex;
     flex-wrap: wrap;
+    align-content: space-around;
     justify-content: space-around;
 }
-
+.bottomleft{
+    color: white;
+    background-color:rgba(0, 0, 0, 0.400);
+    width: 100px;
+    height: 25px;
+}
+.boxvoce{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 240px;
+    height: 140px;
+    background-image:url(https://picsum.photos/240/140)
+}
+.bottomleft{
+    padding-top: 3px;
+}
