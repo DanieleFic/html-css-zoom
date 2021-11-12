@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-weight: 500;
 }
 
 i{
@@ -115,7 +116,7 @@ main section{
 }
 
 .mid{
-    width: 40%;
+    width: 50%;
     display: flex;
 }
 .mid div{
