@@ -109,9 +109,6 @@ main section{
 }
 #arrowtop{
     font-size: 10px;
-    position: absolute;
-    top: 30px;
-    left: 310px;
 }
 .right{
     background-color: grey;
