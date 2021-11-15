@@ -15,7 +15,7 @@ a{
 }
 
 main section{
-    height: 90vh;
+    height: calc(100vh - 93px);
     background-color: black;
 }
 
@@ -86,7 +86,7 @@ main section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10vh;
+    height: 93px;
     background-color: rgb(34, 34, 34);
 }
 
@@ -109,6 +109,9 @@ main section{
 }
 #arrowtop{
     font-size: 10px;
+    position: absolute;
+    top: 30px;
+    left: 310px;
 }
 .right{
     background-color: grey;
@@ -121,8 +124,9 @@ main section{
 }
 
 .mid{
-    width: 50%;
+    width: 35%;
     display: flex;
+    position: relative;
 }
 .mid div{
     text-align: center;
