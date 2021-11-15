@@ -9,6 +9,11 @@ i{
     color: white;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 main section{
     height: 90vh;
     background-color: black;
@@ -125,4 +130,12 @@ main section{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.fa-share-square{
+    color: green;
+}
+
+.right p{
+    color: red;
 }
